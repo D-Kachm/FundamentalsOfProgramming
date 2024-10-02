@@ -18,11 +18,8 @@ int main() {
     printf("Integer in decimal: %d\n", integer);
     
     // Виведення цілого числа у двійковому форматі
-    printf("Integer in binary: ");
-    for (int i = sizeof(integer) * 8 - 1; i >= 0; i--) {
-        printf("%d", (integer >> i) & 1);
-    }
-    printf("\n");
+    
+    printf("Integer in binary: %b\n, integer");
 
     // Виведення цілого числа у вісімковому форматі
     printf("Integer in octal: %o\n", integer);
